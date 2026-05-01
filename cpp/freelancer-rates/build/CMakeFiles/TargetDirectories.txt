@@ -1,0 +1,4 @@
+/home/thomasbasoglu/Desktop/exercism/cpp/freelancer-rates/build/CMakeFiles/freelancer-rates.dir
+/home/thomasbasoglu/Desktop/exercism/cpp/freelancer-rates/build/CMakeFiles/test_freelancer-rates.dir
+/home/thomasbasoglu/Desktop/exercism/cpp/freelancer-rates/build/CMakeFiles/edit_cache.dir
+/home/thomasbasoglu/Desktop/exercism/cpp/freelancer-rates/build/CMakeFiles/rebuild_cache.dir

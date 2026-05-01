@@ -1,0 +1,4 @@
+/home/thomasbasoglu/Desktop/exercism/cpp/interest-is-interesting/build/CMakeFiles/interest-is-interesting.dir
+/home/thomasbasoglu/Desktop/exercism/cpp/interest-is-interesting/build/CMakeFiles/test_interest-is-interesting.dir
+/home/thomasbasoglu/Desktop/exercism/cpp/interest-is-interesting/build/CMakeFiles/edit_cache.dir
+/home/thomasbasoglu/Desktop/exercism/cpp/interest-is-interesting/build/CMakeFiles/rebuild_cache.dir

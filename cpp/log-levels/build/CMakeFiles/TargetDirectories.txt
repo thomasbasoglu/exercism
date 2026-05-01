@@ -1,0 +1,4 @@
+/home/thomasbasoglu/Desktop/exercism/cpp/log-levels/build/CMakeFiles/log-levels.dir
+/home/thomasbasoglu/Desktop/exercism/cpp/log-levels/build/CMakeFiles/test_log-levels.dir
+/home/thomasbasoglu/Desktop/exercism/cpp/log-levels/build/CMakeFiles/edit_cache.dir
+/home/thomasbasoglu/Desktop/exercism/cpp/log-levels/build/CMakeFiles/rebuild_cache.dir
