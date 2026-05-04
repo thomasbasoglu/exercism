@@ -307,7 +307,6 @@ void test_can_split_10_k(void) {
 
 // TASK: 6
 void test_can_double_down_a_9(void) {
-    TEST_IGNORE();
     const card_t card_one = CA;
     const card_t card_two = C9;
     const bool expected = true;
@@ -316,7 +315,6 @@ void test_can_double_down_a_9(void) {
 }
 
 void test_can_double_down_k_j(void) {
-    TEST_IGNORE();
     const card_t card_one = CK;
     const card_t card_two = CJ;
     const bool expected = false;
@@ -325,7 +323,6 @@ void test_can_double_down_k_j(void) {
 }
 
 void test_can_double_down_4_3(void) {
-    TEST_IGNORE();
     const card_t card_one = C4;
     const card_t card_two = C3;
     const bool expected = false;
@@ -334,7 +331,6 @@ void test_can_double_down_4_3(void) {
 }
 
 void test_can_double_down_4_5(void) {
-    TEST_IGNORE();
     const card_t card_one = C4;
     const card_t card_two = C5;
     const bool expected = true;
@@ -343,7 +339,6 @@ void test_can_double_down_4_5(void) {
 }
 
 void test_can_double_down_a_a(void) {
-    TEST_IGNORE();
     const card_t card_one = CA;
     const card_t card_two = CA;
     const bool expected = false;
@@ -352,7 +347,6 @@ void test_can_double_down_a_a(void) {
 }
 
 void test_can_double_down_k_a(void) {
-    TEST_IGNORE();
     const card_t card_one = CK;
     const card_t card_two = CA;
     const bool expected = true;

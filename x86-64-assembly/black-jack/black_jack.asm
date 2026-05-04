@@ -205,6 +205,33 @@ global can_double_down
 can_double_down:
     ; This function takes as parameters two numbers each representing a card
     ; The function should return TRUE if the two cards form a hand that can be doubled down, and FALSE otherwise
+
+    call value_of_card  ; Result for rdi is now on rax
+    mov r8, rax
+
+
+    ; Getting value of card 2
+    mov rdi, rsi
+    call value_of_card
+    mov r9, rax
+
+    add r8, r9
+
+    cmp r8, 0x9
+    je .double_down
+
+    cmp r8, 0xA
+    je .double_down
+
+    cmp r8, 0xB
+    je .double_down
+
+    mov rax, 0
+    ret
+    
+
+.double_down:
+    mov rax, 0x1
     ret
 
 %ifidn __OUTPUT_FORMAT__,elf64
