@@ -99,8 +99,12 @@ def student_ranking(student_scores, student_names):
     Returns:
         list[str]: Strings in format ["<rank>. <student name>: <score>"].
     """
-
-    pass
+    index = 0
+    student_ranking_list = []
+    while index < len(student_scores):
+        student_ranking_list.append(f"{index+1}. {student_names[index]}: {student_scores[index]}")
+        index+=1
+    return student_ranking_list
 
 
 def perfect_score(student_info):
@@ -112,5 +116,7 @@ def perfect_score(student_info):
     Returns:
         list: First `[<student name>, 100]` found OR `[]` if no student score of 100 is found.
     """
-
-    pass
+    for entry in student_info:
+        if entry[1] == 100:
+            return entry
+    return[]
