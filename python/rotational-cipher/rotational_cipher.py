@@ -1,9 +1,11 @@
+"""This module decrypts ceasars cypher"""
 def rotate(text, key):
+    """Decrypting function"""
     decrypted = ""
 
     for char in text:
         if char.isalpha():
-            base = ord('A') if char.isupper() else ord('a')
+            base = ord("A") if char.isupper() else ord("a")
             
             zero_based_index = ord(char) - base
             
@@ -19,4 +21,3 @@ def rotate(text, key):
             decrypted += char
             
     return decrypted
-
